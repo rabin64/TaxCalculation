@@ -1,0 +1,12 @@
+E:\Tax\TaxCalculation\bin\Debug\net7.0\TaxCalculation.deps.json
+E:\Tax\TaxCalculation\bin\Debug\net7.0\TaxCalculation.dll
+E:\Tax\TaxCalculation\bin\Debug\net7.0\TaxCalculation.pdb
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.csproj.AssemblyReference.cache
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.GeneratedMSBuildEditorConfig.editorconfig
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.AssemblyInfoInputs.cache
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.AssemblyInfo.cs
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.csproj.CoreCompileInputs.cache
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.dll
+E:\Tax\TaxCalculation\obj\Debug\net7.0\refint\TaxCalculation.dll
+E:\Tax\TaxCalculation\obj\Debug\net7.0\TaxCalculation.pdb
+E:\Tax\TaxCalculation\obj\Debug\net7.0\ref\TaxCalculation.dll
