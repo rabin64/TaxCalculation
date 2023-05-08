@@ -20,7 +20,7 @@ namespace TaxCalculation
             {
                 new TaxBracket { LowerLimit = 0, UpperLimit = 1000, TaxPercentage = 0.10 },
                 new TaxBracket { LowerLimit = 1000, UpperLimit = 5000, TaxPercentage = 0.20 },
-                new TaxBracket { LowerLimit = 5000, UpperLimit = double.PositiveInfinity, TaxPercentage = 0.35 }
+                new TaxBracket { LowerLimit = 5000, UpperLimit = double.MaxValue, TaxPercentage = 0.35 }
             };
         }
 

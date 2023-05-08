@@ -6,6 +6,7 @@ namespace TaxCalculator.Test
     public class Tests
     {
         private CalculateTax _calculateTax;
+
         [SetUp]
         public void Setup()
         {
@@ -21,8 +22,7 @@ namespace TaxCalculator.Test
             double expectedTax = 240;
             double actualTax = _calculateTax.CalculateAdditionalTotalTax(usualIncome, additionalIncome);
 
-            Assert.AreEqual(expectedTax, actualTax);
-            //Assert.Pass();
+            Assert.That(actualTax, Is.EqualTo(expectedTax));
         }
 
         [Test]
@@ -34,7 +34,7 @@ namespace TaxCalculator.Test
             double expectedTax = 1715;
             double actualTax = _calculateTax.CalculateAdditionalTotalTax(usualIncome, additionalIncome);
 
-            Assert.AreEqual(expectedTax, actualTax);
+            Assert.That(actualTax, Is.EqualTo(expectedTax));
 
         }
         [Test]
@@ -46,7 +46,7 @@ namespace TaxCalculator.Test
             double expectedTax = 0;
             double actualTax = _calculateTax.CalculateAdditionalTotalTax(usualIncome, additionalIncome);
 
-            Assert.AreEqual(expectedTax, actualTax);
+            Assert.That(actualTax, Is.EqualTo(expectedTax));
 
         }
 
@@ -59,7 +59,7 @@ namespace TaxCalculator.Test
             double expectedTax = 50;
             double actualTax = _calculateTax.CalculateAdditionalTotalTax(usualIncome, additionalIncome);
 
-            Assert.AreEqual(expectedTax, actualTax);
+            Assert.That(actualTax, Is.EqualTo(expectedTax));
 
         }
 
